@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {Component} from 'react';
+import './NavBar.css';
 
 class NavBar extends Component {
     constructor(props) {
@@ -12,15 +13,18 @@ class NavBar extends Component {
         return (  
             <nav>
                 <div class="nav-bar">
-                    <span class="nav-text"></span>
-                        <span>Home</span>
+                    <span class="nav-text">
+                        <span class="add-recipe">Add Recipe</span>
                         <span>Favorites</span>
                         <span>Asian</span>
                         <span>Italian</span>
                         <span>Mexican</span>
+                        <span>Salads</span>
                         <span>Appetizers</span>
                         <span>Desserts</span>
                         <span>Under 30min</span>
+                        <span>Under 400 Cal</span>
+                    </span>
                 </div>
             </nav>
         )

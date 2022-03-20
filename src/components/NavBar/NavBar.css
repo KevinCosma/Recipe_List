@@ -1,0 +1,18 @@
+span {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav-bar {
+    position: sticky;
+    text-align: center;
+    background-color: aqua;
+}
+
+a:hover(.active) {
+    background-color: orchid;
+}
+
+.nav-text {
+    font-size: 22px;
+}

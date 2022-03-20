@@ -1,4 +1,7 @@
 import React, {Component} from 'react';
+import './App.css';
+import NavBar from './components/NavBar/NavBar';
+import SearchBar from './components/SearchBar/SearchBar';
 
 class App extends Component {
     constructor(props){
@@ -8,7 +11,12 @@ class App extends Component {
 
     render(){
         return(
-        <h1>Recipes List</h1>
+            <div className='container-fluid'>
+                <h1>My Recipes</h1>
+                <NavBar />
+                <SearchBar />
+            </div>
+
         )
     }
 }
