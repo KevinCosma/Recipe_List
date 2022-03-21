@@ -6,7 +6,6 @@ span {
 .nav-bar {
     position: sticky;
     text-align: center;
-    background-color: aqua;
 }
 
 a:hover(.active) {
@@ -14,5 +13,6 @@ a:hover(.active) {
 }
 
 .nav-text {
-    font-size: 22px;
+    font-size: 30px;
+    font-weight: bolder;
 }

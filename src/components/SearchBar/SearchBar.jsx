@@ -11,8 +11,11 @@ class SearchBar extends Component {
     
     render() { 
         return (  
-            <div class="search-bar">
-                
+            <div id="form" className="search-bar">
+                <form id="form">
+                    <input type="text" placeholder="Search recipes..." name="search" />
+                    <button type="submit">Search</button>
+                </form>
             </div>
         )
     }
