@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './SearchBar.css'
+import magnifyingGlass from '../images/magnifyingGlass.jpg'
 
 class SearchBar extends Component {
     constructor(props) {
@@ -11,10 +12,10 @@ class SearchBar extends Component {
     
     render() { 
         return (  
-            <div id="form" className="search-bar">
+            <div className="search-bar">
                 <form id="form">
-                    <input type="text" placeholder="Search recipes..." name="search" />
-                    <button type="submit">Search</button>
+                    <input class="text" type="text" placeholder="Search recipes..." name="search" />
+                    <button type="submit"></button>
                 </form>
             </div>
         )
